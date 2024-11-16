@@ -1,0 +1,42 @@
+GETTING STARTED WITH GIT BASICS
+
+#Initializing an empty git Repo:
+Creating an empty Git repo in specified directory. Run with no
+arguments to initialize the current directory as a git repository
+Command : git init <directory_name>
+
+#Cloning a git repo
+Clone repo located at <repo> on your local machine. Original repo can be
+located on the local filesystem or on a remote machine via HTTP or SSH
+Command : git clone <repo_Http_link or SSH_link>
+
+#Configuration setup :
+Define author name to be used for all commits in current repo. Devs
+commonly use --global flag to set config options for current user.
+Command :git config user.name <YOur_name_here> 
+
+#Staging Changes :
+Stage all changes in <directory> for the next commit.
+Replace <directory> with a <file> to change a specific file.
+Command : git add <Path_to_the_file_in_which_changes_are_made>
+          git add . (for staging all the files with changes)
+
+#Commiting Changes :
+Commit the staged snapshot, but instead of launching
+a text editor, use <message> as the commit message.
+Command : git commit -m "<Your_message_here>"
+
+#Viewing current Status :
+List which files are staged, unstaged, and untracked
+Command : git status 
+
+Viewinng entire git history :
+Display the entire commit history using the default format.
+For customization see additional options.
+Command :git log 
+View your Unstaged changes :
+Show unstaged changes between your index and
+working directory.
+Command :git diff 
+
+
