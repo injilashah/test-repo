@@ -1,0 +1,13 @@
+#List All Available brancges:
+List  branches in your repo. Add a <branch> argument to
+create a new branch with the name <branch>.
+Command : git branch
+
+#Create and Checkout a Branch
+Create and check out a new branch named <branch>.
+Drop the -b flag to checkout an existing branch.
+Command : git checkout -b <branch_name>
+
+#Mergibg Branches :
+Merge <branch> into the current branch.
+Command : git merge <branch_name> 
